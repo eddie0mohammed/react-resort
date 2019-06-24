@@ -10,7 +10,7 @@ const getUnique = (items, value) => {
 const RoomsFilter = ({rooms}) => {
     const context = useContext(RoomContext);
 
-    const {handleChange, type, capacity, price, minPrice, maxPrice, minSize, maxSize, breakfast, pets} = context;
+    const {handleChange, type, capacity, price, breakfast, pets} = context;
 
     //get unique types
     let types = getUnique(rooms, 'type');
@@ -53,9 +53,28 @@ const RoomsFilter = ({rooms}) => {
 
                 {/* price */}
                 {/* size */}
-                
+                {/* <div className="form-group">
+                    <label htmlFor="size">room size</label>
+                    <div className="size-inputs">
+                        <input type="number" name="minSize" id="minSize" value='0' onChange={handleChange} className="size-input"/>
+                        <input type="number" name="maxSize" id="maxSize" value='1000' onChange={handleChange} className="size-input"/>
+                    </div>
+                </div> */}
                 {/* size */}
 
+                {/* extras */}
+                <div className="form-group">
+                    <div className="single-extra">
+                        <input type="checkbox" name="breakfast" id="breakfast" checked={breakfast} onChange={handleChange}/>
+                        <label htmlFor="breakfast">breakfast</label>
+                        <br/>
+                        <input type="checkbox" name="pets" id="pets" checked={pets} onChange={handleChange}/>
+                        <label htmlFor="pets">pets</label>
+                    </div>
+                </div>
+                {/* extras */}
+
+               
 
             </form>
         </section>
