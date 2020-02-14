@@ -8,23 +8,23 @@ class Services extends Component {
         services: [
             {
                 icon: <FaCocktail/>,
-                title: 'free cocktails',
-                info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis doloribus repellat voluptas id inventore quo magnam vero nisi earum odit.'
+                title: 'Free cocktails',
+                info: 'Complementary cocktails upon arrival. Bar is open 24/7. Room service available at all times. Our staff are available to make your stay with us memorable'
             },
             {
                 icon: <FaHiking/>,
                 title: 'Endless Hiking',
-                info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis doloribus repellat voluptas id inventore quo magnam vero nisi earum odit.'
+                info: 'Tour guides available free of charge for you hiking trips. We offer hiking trips to 7 destinations with varying difficulty level to suit all our guests'
             },
             {
                 icon: <FaShuttleVan/>,
                 title: 'Free Shuttle',
-                info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis doloribus repellat voluptas id inventore quo magnam vero nisi earum odit.'
+                info: 'We offer shuttle services, pick up and drop off, free of charge. Pickup and drop off includes destination such as the beach, airport, etc... 24hr notice required'
             },
             {
                 icon: <FaBeer/>,
-                title: 'Strongest Beer',
-                info: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis doloribus repellat voluptas id inventore quo magnam vero nisi earum odit.'
+                title: 'Gym, Pool and Spa',
+                info: 'Fully equipped gym with modern equipments. Half size olympic pool, hot tub and spa. Massage therapy available. '
             },
         ]
     }
